@@ -1,0 +1,15 @@
+$red: rgb(34, 87, 23);
+
+@mixin button-clear {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+h1{
+    color: $red;
+}
+.btn{
+    @include button-clear();
+    color: tomato;
+}
