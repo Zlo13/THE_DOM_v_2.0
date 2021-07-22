@@ -1,0 +1,56 @@
+.footer a{
+    text-decoration: none;
+    color: var(--basic-white);
+}
+.footer {
+   
+    display: grid;
+    grid-template: 124px / 1fr 1fr;
+    padding: 0 40px 0 40px;
+    // .footer__left
+
+    &__left {
+        align-self: center;
+    }
+
+    // .footer__contacts
+
+    &__contacts {
+        list-style: none;
+        padding: 0;
+    }
+
+    // .footer__right
+
+    &__right {
+        align-self:end;
+        justify-self:end;
+    }
+
+    // .footer__design
+
+    &__design {
+    }
+}
+.contacts {
+
+    // .contacts__item
+
+    &__item {
+    }
+
+    // .contacts__link
+
+    &__link {
+    }
+
+    // .contacts__mail
+
+    &__mail {
+    }
+
+    // .contacts__phone
+
+    &__phone {
+    }
+}

@@ -1,15 +1,15 @@
-$red: rgb(34, 87, 23);
+/* Global */
 
-@mixin button-clear {
-    border: none;
-    background-color: transparent;
-    cursor: pointer;
-}
+@import 'fonts.scss';
+@import 'box-model.scss';
+@import 'variables.scss';
 
-h1{
-    color: $red;
-}
-.btn{
-    @include button-clear();
-    color: tomato;
+@import'./blocks/page.scss';
+@import'./blocks/menu.scss';
+@import'./blocks/brands';
+@import'./blocks/footer';
+
+
+.del{
+    margin-top: 180px;
 }
